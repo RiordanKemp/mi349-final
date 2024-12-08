@@ -24,7 +24,7 @@ main{
     padding: 25px;
 }
 
-.details section.burningtext{
+.details section.hivetext{
     flex-grow: 1;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -90,7 +90,7 @@ a:visited.nav, a:link.nav {
 
 details section h2{
     margin: 20px;
-    text-align: center
+    text-align: center;
 }
 
 
@@ -105,8 +105,8 @@ img{
     border-radius: 20px;
 }
 
-#burning{
-    height: 1100px;
+#honey{
+    height: 700px;
     border-radius: 20px;
 }
 
@@ -134,7 +134,8 @@ h1{
 h2{
     margin:0 0 10px 0;
     padding: 20px;
-    text-align: center
+    text-align: center;
+    font-weight: bolder;
 }
 
 a:visited.blog, a:link.blog {

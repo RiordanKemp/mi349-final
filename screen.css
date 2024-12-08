@@ -127,6 +127,10 @@ p{
     line-height: 1.4em;
 }
 
+h1{
+    font-weight: bold;
+}
+
 h2{
     margin:0 0 10px 0;
     padding: 20px;

@@ -1,0 +1,153 @@
+body{
+    background:#fff;
+    font-family:Helvetica, sans-serif;
+    border-top: 15px solid #424242;
+    margin: 0 auto;
+    color: #424242;
+    text-align: center
+}
+
+main{
+    margin: 0 auto;
+    width: 800px;
+}
+
+.details{
+    display: flex;
+    gap: 25px;
+}
+
+.details section{
+    flex-basis: 0;
+    border-radius: 20px;
+    border: solid 2px;
+    padding: 25px;
+}
+
+.details section.burningtext{
+    flex-grow: 1;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    background: #11aa11;
+}
+
+.details section.frigatetext{
+    flex-grow: 1;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    background: #aa1111;
+}
+
+.details section.authortext{
+    flex-grow: 1;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: -50px;
+    background: #1111aa;
+    color: #aaaaaa;
+    text-align: left;
+}
+
+.formdisplay{
+    display:flex;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navigation{
+    position: sticky;
+    top: 10px;
+    left: 50px;
+    display: flex;
+    gap: 0px;
+}
+
+
+a:visited.nav, a:link.nav {
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 0px;
+    background-color: #9c9c9c;
+    color: rgb(35, 35, 35);
+    padding: 30px 140px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.details section p{
+    margin: 20px;
+    text-align: left
+}
+
+details section h2{
+    margin: 20px;
+    text-align: center
+}
+
+
+
+
+img{
+    width:100%;
+}
+
+#frigatebird{
+    height: 800px;
+    border-radius: 20px;
+}
+
+#burning{
+    height: 1100px;
+    border-radius: 20px;
+}
+
+#authorimg{
+    height: 750px;
+    width: 500px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    float: right;
+    margin-left: 0px;
+    margin-right: -100px;
+}
+
+
+
+p{
+    margin:0;
+    line-height: 1.4em;
+}
+
+h2{
+    margin:0 0 10px 0;
+    padding: 20px;
+    text-align: center
+}
+
+a:visited.blog, a:link.blog {
+    text-decoration: none;
+}
+
+figure {
+    display: table;
+    border-top: none;
+    padding-top: 0;
+  }
+
+figcaption {
+    display: table-caption;
+    caption-side: top;
+    padding: 0.5em;
+    border: thin silver solid;
+    border-bottom: none;
+    margin-right: -100px;
+  }

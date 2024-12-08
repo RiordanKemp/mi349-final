@@ -219,6 +219,7 @@ img{
 p{
     margin:0;
     line-height: 1.4em;
+    white-space-collapse: preserve-spaces;
 }
 
 h1{
